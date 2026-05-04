@@ -14,6 +14,12 @@ public class Employee {
         this.payRate = payRate;
         this.hoursWorked = hoursWorked;
     }
+    //temp testing constructor
+    public Employee(String name, double payRate, double hoursWorked) {
+        this.name = name;
+        this.payRate = payRate;
+        this.hoursWorked = hoursWorked;
+    }
 
     public int getEmployeeId() {
         return employeeId;
