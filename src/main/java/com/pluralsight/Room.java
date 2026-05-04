@@ -8,8 +8,14 @@ public class Room {
     private boolean isDirty;
     private boolean isAvailable;
 
-
-
+    //constructor
+    public Room(int numBeds, double price, boolean isOccupied, boolean isDirty, boolean isAvailable) {
+        this.numBeds = numBeds;
+        this.price = price;
+        this.isOccupied = isOccupied;
+        this.isDirty = isDirty;
+        this.isAvailable = isAvailable;
+    }
 
     // getters
     public int getNumBeds() {
